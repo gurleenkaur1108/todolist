@@ -1,0 +1,38 @@
+.NewTopic {
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid black;
+    box-shadow: 0 2px 3px #ccc; 
+      background-color: #F5E1FD;
+    text-align: center;
+}
+
+
+
+.NewTopic input,
+.NewTopic textarea,
+.NewTopic select {
+    display: block;
+    width: 35%;
+  
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.NewTopic button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid black;
+    background-color: #A4DE02;
+    color: black;
+    cursor: pointer;
+}
+
+.NewTopic button:hover,
+.NewTopic button:active {
+    color: white;
+    background-color:  lightgrey;
+}

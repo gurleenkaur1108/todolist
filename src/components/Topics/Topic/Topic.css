@@ -1,0 +1,48 @@
+.Topic {
+    width: 60%;
+    margin: 16px auto;
+    border: 3px solid black;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #F5E1FD;
+}
+.Topic button.Red {
+     color: black;
+     background-color: red;
+     margin-right:16px;
+     cursor: pointer;
+     
+     }
+
+  .Topic button.Red:hover,
+.Topic button.Red:active {
+    color: white;
+    background-color: orange;
+
+}
+
+ .Topic button.Yellow:hover,
+.Topic button.Yellow:active {
+    color: white;
+    background-color: sandybrown;
+
+}
+
+.Topic button.Yellow {
+     color: black;
+     background-color: yellow;
+     cursor: pointer;
+     }
+
+.Topic input{
+     display: block;
+    margin-left: 135px;
+    margin-top: 10px;
+     }
+
+@media (min-width: 500px) {
+    .Topic {
+        width: 450px;
+    }
+}

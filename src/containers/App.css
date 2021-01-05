@@ -1,0 +1,23 @@
+.App {
+  text-align: center; 
+  background-image: url(../assets/images/purplebag.jpg);
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding: 1px;
+
+}
+
+.App h1{
+	color: black;
+	font-family: 'Lobster', cursive;
+    background-image: url(../assets/images/todoimg.png);
+	background-repeat: no-repeat;
+    background-position:120px;
+	background-size: 40px;
+}
+
+@media (min-width: 900px) {
+    .App h1 {
+       background-position:550px;
+    }
+}

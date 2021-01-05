@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\images",
+    "\\src\\components",
+    "\\src\\components\\Topics",
+    "\\src\\components\\Topics\\NewTopic",
+    "\\src\\containers",
+    "\\src\\hoc"
+  ],
+  "SelectedNode": "\\src\\components\\Topics\\Topic\\Topic.js",
+  "PreviewInSolutionExplorer": false
+}
